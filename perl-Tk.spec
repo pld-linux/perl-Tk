@@ -44,8 +44,11 @@ wykorzystaniem GUI Tk.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+	INSTALLDIRS=vendor \
+	X11LIB=/usr/X11R6/%{_lib}
+
 %{__perl} -pi -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
+
 %{__make} \
 	OPTIMIZE="%{rpmcflags}"
 
