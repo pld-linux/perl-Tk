@@ -63,8 +63,7 @@ install -d $RPM_BUILD_ROOT%{perl_sitelib}/Tk
 
 rm -f $RPM_BUILD_ROOT%{perl_sitearch}/{auto/Tk/.packlist,Tk/reindex.pl} \
 	$RPM_BUILD_ROOT%{_mandir}/man3/Tie::Watch.3pm \
-	$RPM_BUILD_ROOT%{perl_sitearch}/Tk/*.pod \
-	$RPM_BUILD_ROOT%{perl_sitearch}/auto/Tk/{*.ix,*/*.ix}
+	$RPM_BUILD_ROOT%{perl_sitearch}/Tk/*.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -79,6 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_sitearch}/auto/Tk
 %{perl_sitearch}/auto/Tk/Tk.bs
 %attr(755,root,root) %{perl_sitearch}/auto/Tk/Tk.so
+%{perl_sitearch}/auto/Tk/autosplit.ix
 %{perl_sitearch}/auto/Tk/*.al
 %dir %{perl_sitearch}/auto/Tk/[BHLMNPWXp]*
 %dir %{perl_sitearch}/auto/Tk/Canvas
@@ -89,8 +89,8 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_sitearch}/auto/Tk/IO
 %dir %{perl_sitearch}/auto/Tk/InputO
 %dir %{perl_sitearch}/auto/Tk/Sc*
-%dir %{perl_sitearch}/auto/Tk/T[Laio]*
-%dir %{perl_sitearch}/auto/Tk/Text
+%dir %{perl_sitearch}/auto/Tk/T[Laeio]*
+%{perl_sitearch}/auto/Tk/*/autosplit.ix
 %{perl_sitearch}/auto/Tk/*/*.al
 %{perl_sitearch}/auto/Tk/*/*.bs
 %{perl_sitearch}/auto/Tk/*/*.ld
