@@ -7,36 +7,21 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	Tk
-Summary:	Tk Perl module
-Summary(cs):	Modul Tk pro Perl
-Summary(da):	Perlmodul Tk
-Summary(de):	Tk Perl Modul
-Summary(es):	Módulo de Perl Tk
-Summary(fr):	Module Perl Tk
-Summary(it):	Modulo di Perl Tk
-Summary(ja):	Tk Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Tk ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Tk
-Summary(pl):	Modu³ Perla Tk
-Summary(pt):	Módulo de Perl Tk
-Summary(pt_BR):	Módulo Perl Tk
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Tk
-Summary(sv):	Tk Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Tk
-Summary(zh_CN):	Tk Perl Ä£¿é
+Summary:	Tk module - a graphical user interface toolkit for Perl
+Summary(pl):	Modu³ Tk - toolkit graficznego interfejsu u¿ytkownika dla Perla
 Name:		perl-Tk
-Version:	800.024
-Release:	2
+Version:	800.025
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5: 63049c71b467344c565e5c53fd309bb7
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}%{version}.tar.gz
+# Source0-md5:	9907e608addd2e3f004d45f13dfb181e
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-man_section.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	perl-Tie-Watch
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -61,13 +46,15 @@ wykorzystaniem GUI Tk.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__perl} -pi -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{perl_vendorlib}/Tk
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 rm -f	$RPM_BUILD_ROOT%{perl_vendorarch}/{auto/Tk/.packlist,Tk/reindex.pl} \
 	$RPM_BUILD_ROOT%{_mandir}/man3/Tie::Watch.3pm \

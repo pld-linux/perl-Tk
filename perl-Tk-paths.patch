@@ -475,15 +475,6 @@ diff -Nru Tk800.023/compile/splitfunc Tk800.023.new/compile/splitfunc
  use IO::File;
  
  while (<>)
-diff -Nru Tk800.023/copydate Tk800.023.new/copydate
---- Tk800.023/copydate	Sat Dec 30 17:12:37 2000
-+++ Tk800.023.new/copydate	Sat Sep  1 07:05:34 2001
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl 
-+#!/usr/bin/perl 
- 
- use File::Find;
- use Time::Local;
 diff -Nru Tk800.023/cursor_demo Tk800.023.new/cursor_demo
 --- Tk800.023/cursor_demo	Sat Dec 30 17:12:37 2000
 +++ Tk800.023.new/cursor_demo	Sat Sep  1 07:05:34 2001
@@ -798,24 +789,6 @@ diff -Nru Tk800.023/geom Tk800.023.new/geom
 +#!/usr/bin/perl -w
  
  use Tk;
- 
-diff -Nru Tk800.023/grepc Tk800.023.new/grepc
---- Tk800.023/grepc	Sat Dec 30 13:16:02 2000
-+++ Tk800.023.new/grepc	Sat Sep  1 07:05:34 2001
-@@ -1,4 +1,4 @@
--#!/tools/local/perl -w
-+#!/usr/bin/perl -w
- use strict;
- use vars qw($file);
- use Data::Dumper;
-diff -Nru Tk800.023/grepperl Tk800.023.new/grepperl
---- Tk800.023/grepperl	Thu Mar 29 10:42:59 2001
-+++ Tk800.023.new/grepperl	Sat Sep  1 07:08:10 2001
-@@ -1,4 +1,4 @@
--#!/tools/local/perl -w
-+#!/usr/bin/perl -w
- 
- use Getopt::Std;
  
 diff -Nru Tk800.023/grid_adj Tk800.023.new/grid_adj
 --- Tk800.023/grid_adj	Sat Dec 30 17:12:37 2000
