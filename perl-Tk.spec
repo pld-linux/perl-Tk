@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 find $RPM_BUILD_ROOT%{perl_sitearch}/auto/Tk -name \*.so \
 	-exec strip --strip-unneeded {} \;
 
-rm -r $RPM_BUILD_ROOT%{perl_sitearch}/auto/Tk/.packlist
+rm -f $RPM_BUILD_ROOT%{perl_sitearch}/{auto/Tk/.packlist,Tk/reindex.pl}
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man[13]/* \
         Changes README README.linux ToDo  Funcs.doc
