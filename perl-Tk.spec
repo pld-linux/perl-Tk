@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Tk
 Summary(zh_CN):	Tk Perl дё©И
 Name:		perl-Tk
 Version:	800.023
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}%{version}.tar.gz
@@ -28,10 +28,10 @@ Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-nolibpt.patch
 Patch3:		%{name}-man_section.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl-devel >= 5.6.1
-BuildRequires:	perl-Tie-Watch
 BuildRequires:	XFree86-devel
+BuildRequires:	perl-Tie-Watch
+BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -76,5 +76,23 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_sitelib}/Tk
 %{perl_sitearch}/Tk.pm
 %{perl_sitearch}/Tk
-%attr( - ,root, root) %{perl_sitearch}/auto/Tk
+%dir %{perl_sitearch}/auto/Tk
+%{perl_sitearch}/auto/Tk/Tk.bs
+%attr(755,root,root) %{perl_sitearch}/auto/Tk/Tk.so
+%{perl_sitearch}/auto/Tk/*.al
+%dir %{perl_sitearch}/auto/Tk/[BHLMNPWXp]*
+%dir %{perl_sitearch}/auto/Tk/Canvas
+%dir %{perl_sitearch}/auto/Tk/C[lo]*
+%dir %{perl_sitearch}/auto/Tk/Entry
+%dir %{perl_sitearch}/auto/Tk/Event
+%dir %{perl_sitearch}/auto/Tk/Frame
+%dir %{perl_sitearch}/auto/Tk/IO
+%dir %{perl_sitearch}/auto/Tk/InputO
+%dir %{perl_sitearch}/auto/Tk/Sc*
+%dir %{perl_sitearch}/auto/Tk/T[Laio]*
+%dir %{perl_sitearch}/auto/Tk/Text
+%{perl_sitearch}/auto/Tk/*/*.al
+%{perl_sitearch}/auto/Tk/*/*.bs
+%{perl_sitearch}/auto/Tk/*/*.ld
+%attr(755,root,root) %{perl_sitearch}/auto/Tk/*/*.so
 %{_mandir}/man[13]/*
