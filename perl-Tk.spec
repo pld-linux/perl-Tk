@@ -30,6 +30,7 @@ Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+# Source0-md5: 63049c71b467344c565e5c53fd309bb7
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-man_section.patch
