@@ -3,7 +3,7 @@ Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
 Version:	800.022
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
