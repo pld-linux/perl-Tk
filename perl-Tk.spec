@@ -38,7 +38,7 @@ This package gives you the ability to develop perl applications using
 the Tk GUI.
 
 %description -l pl
-Ten pakiet daje Ci mo퓄iwo뜻 tworzenia aplikacji perla z
+Ten pakiet daje Ci mo퓄iwo뜻 tworzenia aplikacji Perla z
 wykorzystaniem GUI Tk.
 
 %prep
