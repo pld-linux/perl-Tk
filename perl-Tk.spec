@@ -50,7 +50,7 @@ wykorzystaniem GUI Tk.
 
 %build
 %{__perl} Makefile.PL
-perl -i -p -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
+%{__perl} -pi -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
 %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
