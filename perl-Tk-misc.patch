@@ -1,0 +1,22 @@
+--- Tk/Widget.pm~	Wed Mar 31 19:01:19 1999
++++ Tk/Widget.pm	Tue Nov  9 14:46:52 1999
+@@ -56,7 +56,7 @@
+ sub True  { 1 }
+ sub False { 0 }
+ 
+-use Tk::Submethods( 'grab' =>  [qw(current status release -global)],
++use Tk::Submethods ( 'grab' =>  [qw(current status release -global)],
+                     'focus' => [qw(-force -lastfor)],
+                     'pack'  => [qw(configure forget info propagate slaves)],
+                     'grid'  => [qw(bbox columnconfigure configure forget info location propagate rowconfigure size slaves)],
+--- Tk.pm~	Wed Mar 31 10:49:25 1999
++++ Tk.pm	Tue Nov  9 14:48:55 1999
+@@ -9,7 +9,7 @@
+ # derivation from Tk8.0 sources.
+ #
+ package Tk;
+-require 5.00404;
++require 5.004_04;
+ use     AutoLoader qw(AUTOLOAD);
+ use     DynaLoader;
+ require Exporter;
