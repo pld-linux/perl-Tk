@@ -12,7 +12,7 @@ Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	perl >= 5.6
 BuildRequires:	XFree86-devel
 %requires_eq	perl
 Requires:	%{perl_sitearch}
@@ -53,11 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %attr(755,root,root) %{_bindir}/*
-
 %{perl_sitearch}/Tk.pm
 %{perl_sitearch}/Tk.pod
 %{perl_sitearch}/Tk
-
 %{perl_sitearch}/auto/Tk
-
 %{_mandir}/man[13]/*
