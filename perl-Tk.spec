@@ -3,7 +3,7 @@ Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
 Version:	800.022
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -34,7 +34,8 @@ wykorzystaniem GUI Tk.
 
 %build
 perl Makefile.PL
-%{__make} OPTIMIZE="%{?debug:-O -g}%{!?debug:$RPM_OPT_FLAGS}"
+perl -i -p -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
+%{__make} OPTIMIZE="%{!?debug:$RPM_OPT_FLAGS}%{?debug:-O -g}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
