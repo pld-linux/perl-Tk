@@ -7,8 +7,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	Tk
-Summary:	Tk module - a graphical user interface toolkit for Perl
-Summary(pl):	Modu³ Tk - toolkit graficznego interfejsu u¿ytkownika dla Perla
+Summary:	Tk - a graphical user interface toolkit for Perl
+Summary(pl):	Tk - toolkit graficznego interfejsu u¿ytkownika dla Perla
 Name:		perl-Tk
 Version:	800.025
 Release:	2
