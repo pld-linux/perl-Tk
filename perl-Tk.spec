@@ -3,7 +3,7 @@ Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
 Version:	800.022
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -56,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitearch}/Tk.pm
 %{perl_sitearch}/Tk.pod
 %{perl_sitearch}/Tk
-%{perl_sitearch}/auto/Tk
+%attr( - ,root, root) %{perl_sitearch}/auto/Tk
 %{_mandir}/man[13]/*
