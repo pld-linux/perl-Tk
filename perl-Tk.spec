@@ -30,7 +30,7 @@ Patch2:		%{name}-man_section.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 5.6.1
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
