@@ -1,4 +1,4 @@
-# 
+#
 # TODO:
 # - move *license* files to %%docdir
 # - better summaries / descriptions
@@ -59,7 +59,7 @@ wykorzystaniem GUI Tk.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__perl} -pi -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
 %{__make} OPTIMIZE="%{rpmcflags}"
 
