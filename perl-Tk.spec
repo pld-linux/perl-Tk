@@ -6,7 +6,7 @@ Version:	800.023
 Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-nolibpt.patch
