@@ -49,7 +49,7 @@ wykorzystaniem GUI Tk.
 %patch2 -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 perl -i -p -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
 %{__make} OPTIMIZE="%{rpmcflags}"
 
