@@ -3,7 +3,7 @@ Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
 Version:	800.023
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -42,7 +42,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-rm -f $RPM_BUILD_ROOT%{perl_sitearch}/{auto/Tk/.packlist,Tk/reindex.pl}
+rm -f $RPM_BUILD_ROOT%{perl_sitearch}/{auto/Tk/.packlist,Tk/reindex.pl} \
+	%{_mandir}/man3/Tie::Watch.3pm
 
 gzip -9nf Changes README README.linux ToDo Funcs.doc
 
