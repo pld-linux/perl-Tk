@@ -5,7 +5,7 @@
 # - do something with the demos (AAArgh!)
 #
 # Conditional build:
-%bcond_wit	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test"
 			# require valid DISPLAY
 #
 %include	/usr/lib/rpm/macros.perl
