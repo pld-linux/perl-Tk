@@ -2,14 +2,14 @@
 Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
-Version:	800.014
-Release:	3
+Version:	800.022
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
-Patch0:		perl-Tk-paths.patch
-Patch1:		perl-Tk-misc.patch
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
+#Patch0:		perl-Tk-paths.patch
+#Patch1:		perl-Tk-misc.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	XFree86-devel
@@ -28,8 +28,8 @@ wykorzystaniem GUI Tk.
 
 %prep
 %setup -q -n Tk%{version}
-%patch0 -p1
-%patch1 -p0
+#%patch0 -p1
+#%patch1 -p0
 
 %build
 perl Makefile.PL
