@@ -20,7 +20,7 @@ Release:	0.1
 License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	9907e608addd2e3f004d45f13dfb181e
+# Source0-md5:	d1ca4a6bff6dae4d937fabde4e86256b
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-man_section.patch
