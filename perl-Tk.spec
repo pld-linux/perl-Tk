@@ -113,7 +113,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitearch}/auto/Tk/Scrollbar/autosplit.ix
 %{perl_sitearch}/auto/Tk/Table/*.al
 %{perl_sitearch}/auto/Tk/Table/autosplit.ix
-%{perl_sitearch}/auto/Tk/Text/*.al
 %{perl_sitearch}/auto/Tk/Text/autosplit.ix
 %{perl_sitearch}/auto/Tk/TextUndo/*.al
 %{perl_sitearch}/auto/Tk/TextUndo/autosplit.ix
