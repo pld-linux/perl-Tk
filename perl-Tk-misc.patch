@@ -1,6 +1,7 @@
---- Tk800.022/Tk/Widget.pm.wiget	Sat Apr 29 11:36:41 2000
-+++ Tk800.022/Tk/Widget.pm	Wed Nov 15 17:20:01 2000
-@@ -58,7 +58,7 @@
+diff -Nru Tk-804.027.vanilla/Tk/Widget.pm Tk-804.027/Tk/Widget.pm
+--- Tk-804.027.vanilla/Tk/Widget.pm	2004-03-17 17:00:32.000000000 +0100
++++ Tk-804.027/Tk/Widget.pm	2005-03-11 20:41:39.241813232 +0100
+@@ -60,7 +60,7 @@
  sub True  { 1 }
  sub False { 0 }
  
@@ -9,14 +10,3 @@
                      'focus' => [qw(-force -lastfor)],
                      'pack'  => [qw(configure forget info propagate slaves)],
                      'grid'  => [qw(bbox columnconfigure configure forget info location propagate rowconfigure size slaves)],
---- Tk800.022/Tk.pm.wiget	Sat Apr 29 11:36:41 2000
-+++ Tk800.022/Tk.pm	Wed Nov 15 17:22:02 2000
-@@ -9,7 +9,7 @@
- # derivation from Tk8.0 sources.
- #
- package Tk;
--require 5.00404;
-+require 5.004_04;
- use     Tk::Event ();
- use     AutoLoader qw(AUTOLOAD);
- use     DynaLoader;

@@ -1,6 +1,7 @@
---- Tk800.023/Tk/MMutil.pm~	Thu Jul 18 18:56:51 2002
-+++ Tk800.023/Tk/MMutil.pm	Thu Jul 18 18:56:51 2002
-@@ -321,7 +321,7 @@
+diff -Nru Tk-804.027.vanilla/Tk/MMutil.pm Tk-804.027/Tk/MMutil.pm
+--- Tk-804.027.vanilla/Tk/MMutil.pm	2004-03-27 15:55:55.000000000 +0100
++++ Tk-804.027/Tk/MMutil.pm	2005-03-11 20:44:29.614912584 +0100
+@@ -366,7 +366,7 @@
   local $_ = $self->MM::manifypods;
   if ($] >= 5.00565)
    {
