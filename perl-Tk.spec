@@ -8,11 +8,14 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tk/Tk%{version}.tar.gz
-Patch:		perl-Tk-paths.patch
+Patch0:		perl-Tk-paths.patch
+Patch1:		perl-Tk-misc.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
+BuildRequires:	XFree86-devel
 %requires_eq	perl
 Requires:	%{perl_sitearch}
+Provides:	perl(Tk::LabRadio)
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
@@ -25,7 +28,8 @@ GUI Tk.
 
 %prep
 %setup -q -n Tk%{version}
-%patch -p1
+%patch0 -p1
+%patch1 -p0
 
 %build
 perl Makefile.PL
