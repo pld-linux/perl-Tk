@@ -2,8 +2,8 @@
 Summary:	Tk perl module
 Summary(pl):	Modu³ perla Tk
 Name:		perl-Tk
-Version:	800.022
-Release:	6
+Version:	800.023
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,7 +13,7 @@ Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-nolibpt.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	XFree86-devel
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
