@@ -19,15 +19,14 @@ Summary(sv):	Tk Perlmodul
 Summary(uk):	Модуль для Perl Tk
 Summary(zh_CN):	Tk Perl дё©И
 Name:		perl-Tk
-Version:	800.023
-Release:	8
+Version:	800.024
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
-Patch2:		%{name}-nolibpt.patch
-Patch3:		%{name}-man_section.patch
+Patch2:		%{name}-man_section.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 5.6.1
@@ -48,7 +47,6 @@ wykorzystaniem GUI Tk.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
-%patch3 -p1
 
 %build
 perl Makefile.PL
