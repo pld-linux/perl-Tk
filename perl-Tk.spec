@@ -15,8 +15,6 @@ Patch2:		%{name}-nolibpt.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	XFree86-devel
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
