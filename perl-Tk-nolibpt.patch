@@ -1,0 +1,12 @@
+diff -durN Tk800.022.orig/Makefile.PL Tk800.022/Makefile.PL
+--- Tk800.022.orig/Makefile.PL	Sat Apr 29 11:28:28 2000
++++ Tk800.022/Makefile.PL	Sun Mar 18 14:23:48 2001
+@@ -31,7 +31,7 @@
+ else
+  {
+   my $plibs = $Config{'libs'};
+-  my $libs  = "$xlib -lX11 -lpt";
++  my $libs  = "$xlib -lX11";
+   my @try   = qw(-lsocket -lnsl -lm);
+   push(@try,'-lc') if $^O =~ /svr4/i;
+   my $lib;
