@@ -1,1317 +1,1617 @@
---- Tk800.022/Contrib/book-examples/f-15.5.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-15.5.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 15.5, p153
---- Tk800.022/Contrib/book-examples/f-16.1.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.1.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.1, p159
---- Tk800.022/Contrib/book-examples/f-16.10.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.10.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.8, p166
---- Tk800.022/Contrib/book-examples/f-16.2.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.2.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.2, p161
---- Tk800.022/Contrib/book-examples/f-16.3.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.3.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.3, p162
---- Tk800.022/Contrib/book-examples/f-16.6.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.6.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.6, p165
---- Tk800.022/Contrib/book-examples/f-16.7.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.7.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.7, p166
---- Tk800.022/Contrib/book-examples/f-16.8.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.8.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.8, p166
---- Tk800.022/Contrib/book-examples/f-16.9.pl.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/book-examples/f-16.9.pl	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- #
- # Figure 16.8, p166
---- Tk800.022/Contrib/TickerTape.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/TickerTape	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Contrib/TickerTape Tk800.023.new/Contrib/TickerTape
+--- Tk800.023/Contrib/TickerTape	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/TickerTape	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  =head1 NAME 
  
---- Tk800.022/Contrib/fd_demo.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/fd_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Contrib/book-examples/f-15.5.pl Tk800.023.new/Contrib/book-examples/f-15.5.pl
+--- Tk800.023/Contrib/book-examples/f-15.5.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-15.5.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 15.5, p153
+diff -Nru Tk800.023/Contrib/book-examples/f-16.1.pl Tk800.023.new/Contrib/book-examples/f-16.1.pl
+--- Tk800.023/Contrib/book-examples/f-16.1.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.1.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.1, p159
+diff -Nru Tk800.023/Contrib/book-examples/f-16.10.pl Tk800.023.new/Contrib/book-examples/f-16.10.pl
+--- Tk800.023/Contrib/book-examples/f-16.10.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.10.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.8, p166
+diff -Nru Tk800.023/Contrib/book-examples/f-16.2.pl Tk800.023.new/Contrib/book-examples/f-16.2.pl
+--- Tk800.023/Contrib/book-examples/f-16.2.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.2.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.2, p161
+diff -Nru Tk800.023/Contrib/book-examples/f-16.3.pl Tk800.023.new/Contrib/book-examples/f-16.3.pl
+--- Tk800.023/Contrib/book-examples/f-16.3.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.3.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.3, p162
+diff -Nru Tk800.023/Contrib/book-examples/f-16.6.pl Tk800.023.new/Contrib/book-examples/f-16.6.pl
+--- Tk800.023/Contrib/book-examples/f-16.6.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.6.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.6, p165
+diff -Nru Tk800.023/Contrib/book-examples/f-16.7.pl Tk800.023.new/Contrib/book-examples/f-16.7.pl
+--- Tk800.023/Contrib/book-examples/f-16.7.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.7.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.7, p166
+diff -Nru Tk800.023/Contrib/book-examples/f-16.8.pl Tk800.023.new/Contrib/book-examples/f-16.8.pl
+--- Tk800.023/Contrib/book-examples/f-16.8.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.8.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.8, p166
+diff -Nru Tk800.023/Contrib/book-examples/f-16.9.pl Tk800.023.new/Contrib/book-examples/f-16.9.pl
+--- Tk800.023/Contrib/book-examples/f-16.9.pl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/book-examples/f-16.9.pl	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ #
+ # Figure 16.8, p166
+diff -Nru Tk800.023/Contrib/fd_demo Tk800.023.new/Contrib/fd_demo
+--- Tk800.023/Contrib/fd_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/fd_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  require Tk::FileDialog;
---- Tk800.022/Contrib/testlistbox.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/Contrib/testlistbox	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Contrib/testlistbox Tk800.023.new/Contrib/testlistbox
+--- Tk800.023/Contrib/testlistbox	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Contrib/testlistbox	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  use Tk;
  use Tk::TiedListbox;
  
---- Tk800.022/DragDrop/drag_test.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/DragDrop/drag_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/drag_test Tk800.023.new/DragDrop/drag_test
+--- Tk800.023/DragDrop/drag_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/drag_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  use Tk::DragDrop qw(Sun);
---- Tk800.022/DragDrop/has_sun.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/DragDrop/has_sun	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/has_sun Tk800.023.new/DragDrop/has_sun
+--- Tk800.023/DragDrop/has_sun	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/has_sun	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  
  my $mw = MainWindow->new;
---- Tk800.022/DragDrop/local_test.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/DragDrop/local_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/local_test Tk800.023.new/DragDrop/local_test
+--- Tk800.023/DragDrop/local_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/local_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  use Tk::DragDrop;
---- Tk800.022/DragDrop/motion_test.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/DragDrop/motion_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/motion_test Tk800.023.new/DragDrop/motion_test
+--- Tk800.023/DragDrop/motion_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/motion_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  use Tk::DragDrop;
---- Tk800.022/DragDrop/selection.wiget	Tue Jul 27 20:20:04 1999
-+++ Tk800.022/DragDrop/selection	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/selection Tk800.023.new/DragDrop/selection
+--- Tk800.023/DragDrop/selection	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/selection	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  
---- Tk800.022/DragDrop/site_test.wiget	Sat Aug 21 22:03:26 1999
-+++ Tk800.022/DragDrop/site_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/DragDrop/site_test Tk800.023.new/DragDrop/site_test
+--- Tk800.023/DragDrop/site_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/DragDrop/site_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  use Tk::DropSite;
---- Tk800.022/Extensions/ImageBack/background.wiget	Tue Jul 27 20:20:05 1999
-+++ Tk800.022/Extensions/ImageBack/background	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Extensions/ImageBack/background Tk800.023.new/Extensions/ImageBack/background
+--- Tk800.023/Extensions/ImageBack/background	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Extensions/ImageBack/background	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Tk::ImageBack;
  use Tk::Photo;
---- Tk800.022/HList/Tix2perl.wiget	Tue Jul 27 20:20:05 1999
-+++ Tk800.022/HList/Tix2perl	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/HList/Tix2perl Tk800.023.new/HList/Tix2perl
+--- Tk800.023/HList/Tix2perl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/HList/Tix2perl	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk::Pretty;
  
---- Tk800.022/TixGrid/tgdemo_config.wiget	Tue Jul 27 20:20:07 1999
-+++ Tk800.022/TixGrid/tgdemo_config	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/TixGrid/tgdemo_config Tk800.023.new/TixGrid/tgdemo_config
+--- Tk800.023/TixGrid/tgdemo_config	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/TixGrid/tgdemo_config	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  # tixgrid demo
  #	standalone or sourceable in ptksh
  
---- Tk800.022/WinPhoto/try.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/WinPhoto/try	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/WinPhoto/try Tk800.023.new/WinPhoto/try
+--- Tk800.023/WinPhoto/try	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/WinPhoto/try	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;             
  use Tk::WinPhoto;
  use Cwd;
---- Tk800.022/Xlib/drops.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/Xlib/drops	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Xlib/drops Tk800.023.new/Xlib/drops
+--- Tk800.023/Xlib/drops	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Xlib/drops	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  
  use Tk;
---- Tk800.022/Xlib/load.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/Xlib/load	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Xlib/load Tk800.023.new/Xlib/load
+--- Tk800.023/Xlib/load	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Xlib/load	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  use Tk::Xlib;
---- Tk800.022/Xlib/motif_site.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/Xlib/motif_site	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Xlib/motif_site Tk800.023.new/Xlib/motif_site
+--- Tk800.023/Xlib/motif_site	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Xlib/motif_site	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Tk::Xlib;
  use Data::Dumper;
---- Tk800.022/Xlib/tree_demo.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/Xlib/tree_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/Xlib/tree_demo Tk800.023.new/Xlib/tree_demo
+--- Tk800.023/Xlib/tree_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/Xlib/tree_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Tk::Xlib;
  use Tk::HList;
---- Tk800.022/bin/defs.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/defs	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/add_version Tk800.023.new/add_version
+--- Tk800.023/add_version	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/add_version	Sat Sep  1 07:16:21 2001
+@@ -1,4 +1,4 @@
+-#!/tools/local/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ use File::Find;
+ use Getopt::Std;
+diff -Nru Tk800.023/adj_demo Tk800.023.new/adj_demo
+--- Tk800.023/adj_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/adj_demo	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl  -w
++#!/usr/bin/perl  -w
+ use Tk;
+ require Tk::TextUndo;
+ 
+diff -Nru Tk800.023/after_demo Tk800.023.new/after_demo
+--- Tk800.023/after_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/after_demo	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Tk;
+ use strict;
+diff -Nru Tk800.023/after_leak Tk800.023.new/after_leak
+--- Tk800.023/after_leak	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/after_leak	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Tk;
+ use Devel::Leak;
+diff -Nru Tk800.023/al_bug Tk800.023.new/al_bug
+--- Tk800.023/al_bug	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/al_bug	Sat Sep  1 07:16:29 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/nperl -w
++#!/usr/bin/perl -w
+ 
+ use Tk;
+ use Tk::Table;
+diff -Nru Tk800.023/animate Tk800.023.new/animate
+--- Tk800.023/animate	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/animate	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use Tk;
+ 
+ my $mw = MainWindow->new;
+diff -Nru Tk800.023/autoraise Tk800.023.new/autoraise
+--- Tk800.023/autoraise	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/autoraise	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Tk;
+ 
+diff -Nru Tk800.023/basic_demo Tk800.023.new/basic_demo
+--- Tk800.023/basic_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/basic_demo	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ 
+ # use Memory (2440);
+ 
+diff -Nru Tk800.023/bin/defs Tk800.023.new/bin/defs
+--- Tk800.023/bin/defs	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/defs	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl 
 +#!/usr/bin/perl 
  
  %def   = ();
  %need  = ();
---- Tk800.022/bin/defunc.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/defunc	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bin/defunc Tk800.023.new/bin/defunc
+--- Tk800.023/bin/defunc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/defunc	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  while (<>)
   {
---- Tk800.022/bin/newstyle.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/newstyle	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bin/newstyle Tk800.023.new/bin/newstyle
+--- Tk800.023/bin/newstyle	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/newstyle	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  @files = @ARGV;
  
---- Tk800.022/bin/perms.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/perms	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bin/perms Tk800.023.new/bin/perms
+--- Tk800.023/bin/perms	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/perms	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use File::Find;
  
---- Tk800.022/bin/unres.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/unres	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bin/unres Tk800.023.new/bin/unres
+--- Tk800.023/bin/unres	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/unres	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  %done = ();
  %defs = ();
---- Tk800.022/bin/uselib.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bin/uselib	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bin/uselib Tk800.023.new/bin/uselib
+--- Tk800.023/bin/uselib	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bin/uselib	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl 
 +#!/usr/bin/perl 
  
  use File::Find;
  
---- Tk800.022/compile/findloader.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/compile/findloader	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use Config; 
- my $sfx = $Config{'lib_ext'};
- foreach my $dir (@INC)
---- Tk800.022/compile/splitfunc.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/compile/splitfunc	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use IO::File;
- 
- while (<>)
---- Tk800.022/demos/browse.wiget	Tue Jul 27 20:20:12 1999
-+++ Tk800.022/demos/browse	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # This script generates a directory browser, which lists the working directory and allows you to open files or subdirectories
- # by double-clicking.
---- Tk800.022/demos/color_editor.wiget	Tue Jul 27 20:20:12 1999
-+++ Tk800.022/demos/color_editor	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # ColorEditor demonstration.
- 
---- Tk800.022/demos/composite.wiget	Tue Jul 27 20:20:12 1999
-+++ Tk800.022/demos/composite	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- 
- use English;
---- Tk800.022/demos/dialog.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/dialog	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- # Demonstrate how to use Dialog to create and manipulate dialog objects.
- # lusol@Lehigh.EDU  95/06/14
---- Tk800.022/demos/hello.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/hello	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # Simple Tk script to create a button that prints "Hello, world".  Click on 
- # the button to terminate the program.
---- Tk800.022/demos/ixset.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/ixset	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
-+#!/usr/bin/perl
- 
- # A nice interface to "xset" to change X server settings
- #
---- Tk800.022/demos/rmt.wiget	Fri Jul 30 17:56:30 1999
-+++ Tk800.022/demos/rmt	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -wT
-+#!/usr/bin/perl -wT
- #
- # This script implements a simple remote-control mechanism for Tk 
- # applications.  It allows you to select an application and then type 
---- Tk800.022/demos/rolodex.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/rolodex	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # This script was written as an entry in Tom LaStrange's rolodex benchmark. 
- # It creates something that has some of the look and feel of a rolodex program,# although it's lifeless and doesn't actually do the rolodex application.
---- Tk800.022/demos/timer.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/timer	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # This script generates a counter with start and stop buttons.  Exit with 
- # Ctrl/c or Ctrl/q.
---- Tk800.022/demos/tom.wiget	Tue Jul 27 20:20:17 1999
-+++ Tk800.022/demos/tom	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # Sample program to get Tom Christiansen going with Perl/Tk.
- 
---- Tk800.022/demos/widget.wiget	Fri Mar 31 14:55:09 2000
-+++ Tk800.022/demos/widget	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- require 5.004;
- 
---- Tk800.022/demos/widget_old.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/demos/widget_old	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- #
- # This script demonstrates the various widgets provided by Tk, along with many of the features of the Tk toolkit.  This file
- # only contains code to generate the main window for the application, which invokes individual demonstrations.  The code for 
---- Tk800.022/pTk/mTk/tclmerge.wiget	Tue Jul 27 20:20:46 1999
-+++ Tk800.022/pTk/mTk/tclmerge	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use strict;
- 
---- Tk800.022/pTk/mTk/tixmerge.wiget	Tue Jul 27 20:20:58 1999
-+++ Tk800.022/pTk/mTk/tixmerge	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use strict;
- 
---- Tk800.022/pTk/LangIO.h.PL.wiget	Tue Jul 27 20:20:25 1999
-+++ Tk800.022/pTk/LangIO.h.PL	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use Config;
- my @gard = qw(
- STDIO_H
---- Tk800.022/pTk/Tcl-pTk.wiget	Sun Dec 12 14:58:36 1999
-+++ Tk800.022/pTk/Tcl-pTk	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use Carp;
- 
---- Tk800.022/pTk/chext.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/chext	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- open(NEED,"<need") || die;
- while (<NEED>)
---- Tk800.022/pTk/counts.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/counts	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
-+#!/usr/bin/perl
- 
- sub count
- {
---- Tk800.022/pTk/findX.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/findX	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- BEGIN { require Exporter };
- 
---- Tk800.022/pTk/findcore.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/findcore	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- BEGIN { require Exporter };
- 
---- Tk800.022/pTk/findstrings.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/findstrings	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- 
- %table = ();
---- Tk800.022/pTk/from.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/from	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;
- 
- use File::Find;
---- Tk800.022/pTk/genexc.wiget	Tue Jul 27 20:20:26 1999
-+++ Tk800.022/pTk/genexc	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- my %mTk;
- my $dir;
---- Tk800.022/pTk/makeenglish.wiget	Tue Jul 27 20:21:09 1999
-+++ Tk800.022/pTk/makeenglish	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- # BEGIN { push(@INC, qw(../../../lib ../../lib ../lib lib)) }
- 
- die "Must be executed from Tk/pTk distribution directory\n" unless -f "Lang.h";
---- Tk800.022/pTk/mkVFunc.wiget	Sat Nov 20 22:09:59 1999
-+++ Tk800.022/pTk/mkVFunc	Wed Nov 15 17:17:16 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;               
- 
- my %Ignore;
---- Tk800.022/pTk/mkXinfo.wiget	Tue Jul 27 20:21:09 1999
-+++ Tk800.022/pTk/mkXinfo	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- $file = shift;
- 
---- Tk800.022/pTk/mkexc.wiget	Tue Jul 27 20:21:09 1999
-+++ Tk800.022/pTk/mkexc	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;
- use vars qw(%ref %def);
- require "process_object";
---- Tk800.022/pTk/mkmethods.wiget	Tue Jul 27 20:21:09 1999
-+++ Tk800.022/pTk/mkmethods	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- $dst = shift;
- 
---- Tk800.022/pTk/tdiff.wiget	Tue Jul 27 20:21:10 1999
-+++ Tk800.022/pTk/tdiff	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- sub fail
- {
---- Tk800.022/pTk/why.wiget	Sat Nov 20 14:55:25 1999
-+++ Tk800.022/pTk/why	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use strict;        
- 
---- Tk800.022/pod/extract/extpod.wiget	Tue Nov  9 14:18:00 1999
-+++ Tk800.022/pod/extract/extpod	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;            
- use Getopt::Std;
- use ExtUtils::Manifest "/mani/";
---- Tk800.022/pod/recat.wiget	Tue Nov  9 14:18:01 1999
-+++ Tk800.022/pod/recat	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;
- my $sec;            
- my %cat;       
---- Tk800.022/pod/subs.wiget	Tue Nov  9 14:18:01 1999
-+++ Tk800.022/pod/subs	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use blib;
- use Tk;                     
- use strict;
---- Tk800.022/add_version.wiget	Sat Jan 22 15:18:58 2000
-+++ Tk800.022/add_version	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use strict;
- use File::Find;
- use Getopt::Std;
---- Tk800.022/adj_demo.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/adj_demo	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl  -w
-+#!/usr/bin/perl  -w
- use Tk;
- require Tk::TextUndo;
- 
---- Tk800.022/after_demo.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/after_demo	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use Tk;
- use strict;
---- Tk800.022/after_leak.wiget	Sun Dec 19 21:49:02 1999
-+++ Tk800.022/after_leak	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use Tk;
- use Devel::Leak;
---- Tk800.022/animate.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/animate	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- use Tk;
- 
- my $mw = MainWindow->new;
---- Tk800.022/autoraise.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/autoraise	Wed Nov 15 17:10:09 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl -w
-+#!/usr/bin/perl -w
- 
- use Tk;
- 
---- Tk800.022/basic_demo.wiget	Thu Apr 27 16:38:55 2000
-+++ Tk800.022/basic_demo	Wed Nov 15 17:16:24 2000
-@@ -1,4 +1,4 @@
--#!/usr/local/bin/perl
-+#!/usr/bin/perl
- 
- # use Memory (2440);
- 
---- Tk800.022/bindtest.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/bindtest	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bindtest Tk800.023.new/bindtest
+--- Tk800.023/bindtest	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bindtest	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Tk::Menubar;
  
---- Tk800.022/build.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/build	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/build Tk800.023.new/build
+--- Tk800.023/build	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/build	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Config;
  my $make = $Config{'make'};
  my @para;
---- Tk800.022/bulkedit.wiget	Sun Dec 19 22:04:14 1999
-+++ Tk800.022/bulkedit	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/bulkedit Tk800.023.new/bulkedit
+--- Tk800.023/bulkedit	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/bulkedit	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  use Tk::LabEntry;
---- Tk800.022/canvas_ps.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/canvas_ps	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/canvas_ps Tk800.023.new/canvas_ps
+--- Tk800.023/canvas_ps	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/canvas_ps	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/canvas_scroll.wiget	Thu Nov 25 11:57:29 1999
-+++ Tk800.022/canvas_scroll	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/canvas_scroll Tk800.023.new/canvas_scroll
+--- Tk800.023/canvas_scroll	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/canvas_scroll	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/cbtest.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/cbtest	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/cbtest Tk800.023.new/cbtest
+--- Tk800.023/cbtest	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/cbtest	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  use Tk;
  use Tk::Pretty;
---- Tk800.022/check_syms.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/check_syms	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/check_syms Tk800.023.new/check_syms
+--- Tk800.023/check_syms	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/check_syms	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use File::Find;     
  use Config; 
  my @libs;
---- Tk800.022/checklen.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/checklen	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/checklen Tk800.023.new/checklen
+--- Tk800.023/checklen	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/checklen	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use ExtUtils::Manifest "/mani/";
  
---- Tk800.022/classtree.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/classtree	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/classtree Tk800.023.new/classtree
+--- Tk800.023/classtree	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/classtree	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;    
  use Tk::widgets qw(Tree Menubar);
---- Tk800.022/cleanup.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/cleanup	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/cleanup Tk800.023.new/cleanup
+--- Tk800.023/cleanup	Wed Feb 21 19:27:16 2001
++++ Tk800.023.new/cleanup	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use File::Find;
  find(\&wanted,'.');
  
---- Tk800.022/clip_bug.wiget	Tue Jul 27 20:20:11 1999
-+++ Tk800.022/clip_bug	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/clip_bug Tk800.023.new/clip_bug
+--- Tk800.023/clip_bug	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/clip_bug	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  # Show a Tk canvas bug:
  # when scrolling a canvas, clipping for embedded windows
  # uses the embedded windows parent, not the canvas.
---- Tk800.022/copydate.wiget	Tue Jul 27 20:20:12 1999
-+++ Tk800.022/copydate	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/compile/findloader Tk800.023.new/compile/findloader
+--- Tk800.023/compile/findloader	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/compile/findloader	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use Config; 
+ my $sfx = $Config{'lib_ext'};
+ foreach my $dir (@INC)
+diff -Nru Tk800.023/compile/splitfunc Tk800.023.new/compile/splitfunc
+--- Tk800.023/compile/splitfunc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/compile/splitfunc	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use IO::File;
+ 
+ while (<>)
+diff -Nru Tk800.023/copydate Tk800.023.new/copydate
+--- Tk800.023/copydate	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/copydate	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl 
 +#!/usr/bin/perl 
  
  use File::Find;
  use Time::Local;
---- Tk800.022/cursor_demo.wiget	Tue Jul 27 20:20:12 1999
-+++ Tk800.022/cursor_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/cursor_demo Tk800.023.new/cursor_demo
+--- Tk800.023/cursor_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/cursor_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  
  my $mw = MainWindow->new;
---- Tk800.022/derived_test.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/derived_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/demos/browse Tk800.023.new/demos/browse
+--- Tk800.023/demos/browse	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/browse	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This script generates a directory browser, which lists the working directory and allows you to open files or subdirectories
+ # by double-clicking.
+diff -Nru Tk800.023/demos/color_editor Tk800.023.new/demos/color_editor
+--- Tk800.023/demos/color_editor	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/color_editor	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # ColorEditor demonstration.
+ 
+diff -Nru Tk800.023/demos/composite Tk800.023.new/demos/composite
+--- Tk800.023/demos/composite	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/composite	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ 
+ use English;
+diff -Nru Tk800.023/demos/dialog Tk800.023.new/demos/dialog
+--- Tk800.023/demos/dialog	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/dialog	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ # Demonstrate how to use Dialog to create and manipulate dialog objects.
+ # lusol@Lehigh.EDU  95/06/14
+diff -Nru Tk800.023/demos/hello Tk800.023.new/demos/hello
+--- Tk800.023/demos/hello	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/hello	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # Simple Tk script to create a button that prints "Hello, world".  Click on 
+ # the button to terminate the program.
+diff -Nru Tk800.023/demos/ixset Tk800.023.new/demos/ixset
+--- Tk800.023/demos/ixset	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/ixset	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ 
+ # A nice interface to "xset" to change X server settings
+ #
+diff -Nru Tk800.023/demos/rmt Tk800.023.new/demos/rmt
+--- Tk800.023/demos/rmt	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/rmt	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -wT
++#!/usr/bin/perl -wT
+ #
+ # This script implements a simple remote-control mechanism for Tk 
+ # applications.  It allows you to select an application and then type 
+diff -Nru Tk800.023/demos/rolodex Tk800.023.new/demos/rolodex
+--- Tk800.023/demos/rolodex	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/rolodex	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This script was written as an entry in Tom LaStrange's rolodex benchmark. 
+ # It creates something that has some of the look and feel of a rolodex program,# although it's lifeless and doesn't actually do the rolodex application.
+diff -Nru Tk800.023/demos/timer Tk800.023.new/demos/timer
+--- Tk800.023/demos/timer	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/timer	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This script generates a counter with start and stop buttons.  Exit with 
+ # Ctrl/c or Ctrl/q.
+diff -Nru Tk800.023/demos/tom Tk800.023.new/demos/tom
+--- Tk800.023/demos/tom	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/tom	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # Sample program to get Tom Christiansen going with Perl/Tk.
+ 
+diff -Nru Tk800.023/demos/widget Tk800.023.new/demos/widget
+--- Tk800.023/demos/widget	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/widget	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require 5.004;
+ 
+diff -Nru Tk800.023/demos/widget_old Tk800.023.new/demos/widget_old
+--- Tk800.023/demos/widget_old	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/demos/widget_old	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # This script demonstrates the various widgets provided by Tk, along with many of the features of the Tk toolkit.  This file
+ # only contains code to generate the main window for the application, which invokes individual demonstrations.  The code for 
+diff -Nru Tk800.023/derived_test Tk800.023.new/derived_test
+--- Tk800.023/derived_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/derived_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  require Tk::Text;
  
---- Tk800.022/destroy_test.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/destroy_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/destroy_test Tk800.023.new/destroy_test
+--- Tk800.023/destroy_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/destroy_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  
  use Tk;
---- Tk800.022/dfpy.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/dfpy	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/dfpy Tk800.023.new/dfpy
+--- Tk800.023/dfpy	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/dfpy	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  use ExtUtils::Manifest "/mani/";
  use Cwd;
---- Tk800.022/disbutton.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/disbutton	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/disbutton Tk800.023.new/disbutton
+--- Tk800.023/disbutton	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/disbutton	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  package StickyButton;
  require Tk::Widget;
---- Tk800.022/dnd_demo.wiget	Tue Jul 27 20:20:18 1999
-+++ Tk800.022/dnd_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/dnd_demo Tk800.023.new/dnd_demo
+--- Tk800.023/dnd_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/dnd_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  #
  # Demo code to exhibit features of dynamic construction and destruction of 
  # local (within app.) Drag and Drop sources and sinks. Written for and tested 
---- Tk800.022/dump_test.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/dump_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/dump_test Tk800.023.new/dump_test
+--- Tk800.023/dump_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/dump_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  my $top = MainWindow->new;
  my $i   = $top->Photo(-file => Tk->findINC('icon.gif'));
---- Tk800.022/embed.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/embed	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/embed Tk800.023.new/embed
+--- Tk800.023/embed	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/embed	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w 
 +#!/usr/bin/perl -w 
  
  use Tk;
  use IO::File;
---- Tk800.022/error_prop.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/error_prop	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/error_prop Tk800.023.new/error_prop
+--- Tk800.023/error_prop	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/error_prop	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::ErrorDialog;
---- Tk800.022/ewidth_demo.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/ewidth_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/ewidth_demo Tk800.023.new/ewidth_demo
+--- Tk800.023/ewidth_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ewidth_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  
---- Tk800.022/findbase.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/findbase	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/exetype Tk800.023.new/exetype
+--- Tk800.023/exetype	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/exetype	Sat Sep  1 07:16:19 2001
+@@ -1,4 +1,4 @@
+-#!perl -w
++#!/usr/bin/perl -w
+ use strict;
+ unless (@ARGV == 2) {
+     print "Usage: $0 exefile [CONSOLE|WINDOWS]\n";
+diff -Nru Tk800.023/fedemo Tk800.023.new/fedemo
+--- Tk800.023/fedemo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/fedemo	Sat Sep  1 07:16:28 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/new/perl -w
++#!/usr/bin/perl -w
+ use strict;  
+ my $FILE_LOG = (@ARGV) ? shift : 'README';
+ 
+diff -Nru Tk800.023/fetail Tk800.023.new/fetail
+--- Tk800.023/fetail	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/fetail	Sat Sep  1 07:16:18 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ my $file = (@ARGV) ? shift : 'README';
+ 
+diff -Nru Tk800.023/findbase Tk800.023.new/findbase
+--- Tk800.023/findbase	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/findbase	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use File::Find;
  
---- Tk800.022/floppy.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/floppy	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/floppy Tk800.023.new/floppy
+--- Tk800.023/floppy	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/floppy	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl
 +#!/usr/bin/perl
  
  use ExtUtils::Manifest "/mani/";
  use Cwd;
---- Tk800.022/font_demo.wiget	Sun Dec 19 18:25:43 1999
-+++ Tk800.022/font_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/font_demo Tk800.023.new/font_demo
+--- Tk800.023/font_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/font_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Tk::X11Font;
  use Tk::ROText;
---- Tk800.022/font_test.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/font_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/font_test Tk800.023.new/font_test
+--- Tk800.023/font_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/font_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  
  
---- Tk800.022/fonts.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/fonts	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/fonts Tk800.023.new/fonts
+--- Tk800.023/fonts	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/fonts	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;              
  use Data::Dumper;
---- Tk800.022/gdb.plx.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/gdb.plx	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/forward_test Tk800.023.new/forward_test
+--- Tk800.023/forward_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/forward_test	Sat Sep  1 07:16:27 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/nperl -w
++#!/usr/bin/perl -w
+ use strict;
+ use Tk;
+                                        
+diff -Nru Tk800.023/gdb.plx Tk800.023.new/gdb.plx
+--- Tk800.023/gdb.plx	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/gdb.plx	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Config;
  open(INIT,">.gdbinit") || die;
  my $perl = $^X;
---- Tk800.022/geo_mgr.wiget	Sat Dec 18 20:52:30 1999
-+++ Tk800.022/geo_mgr	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/gedi Tk800.023.new/gedi
+--- Tk800.023/gedi	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/gedi	Sat Sep  1 07:16:16 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ ###############################################################################
+ # Copyright (c) 1999  Greg London
+diff -Nru Tk800.023/geo_mgr Tk800.023.new/geo_mgr
+--- Tk800.023/geo_mgr	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/geo_mgr	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/geom.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/geom	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/geom Tk800.023.new/geom
+--- Tk800.023/geom	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/geom	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/grepc.wiget	Mon Mar 13 15:24:03 2000
-+++ Tk800.022/grepc	Wed Nov 15 17:15:49 2000
+diff -Nru Tk800.023/grepc Tk800.023.new/grepc
+--- Tk800.023/grepc	Sat Dec 30 13:16:02 2000
++++ Tk800.023.new/grepc	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/tools/local/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use vars qw($file);
  use Data::Dumper;
---- Tk800.022/grepperl.wiget	Thu Dec 30 15:52:10 1999
-+++ Tk800.022/grepperl	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/grepperl Tk800.023.new/grepperl
+--- Tk800.023/grepperl	Thu Mar 29 10:42:59 2001
++++ Tk800.023.new/grepperl	Sat Sep  1 07:08:10 2001
 @@ -1,4 +1,4 @@
--#!/usr/local/bin/perl 
-+#!/usr/bin/perl 
+-#!/tools/local/perl -w
++#!/usr/bin/perl -w
  
  use Getopt::Std;
  
---- Tk800.022/grid_adj.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/grid_adj	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/grid_adj Tk800.023.new/grid_adj
+--- Tk800.023/grid_adj	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/grid_adj	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl  -w
 +#!/usr/bin/perl  -w
  use Tk;
  require Tk::TextUndo;
  require Tk::Adjuster;
---- Tk800.022/grid_test.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/grid_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/grid_test Tk800.023.new/grid_test
+--- Tk800.023/grid_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/grid_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  my $mw = MainWindow->new;
  open(FILE,__FILE__);
---- Tk800.022/gridbug.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/gridbug	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/gridbug Tk800.023.new/gridbug
+--- Tk800.023/gridbug	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/gridbug	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use Carp;
  $top = MainWindow->new();
---- Tk800.022/hackMM.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/hackMM	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/hackMM Tk800.023.new/hackMM
+--- Tk800.023/hackMM	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/hackMM	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use File::Find;
  
---- Tk800.022/hlfm.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/hlfm	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/hlfm Tk800.023.new/hlfm
+--- Tk800.023/hlfm	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/hlfm	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  require Tk::Dirlist;
---- Tk800.022/hlist_bg.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/hlist_bg	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/hlist_bg Tk800.023.new/hlist_bg
+--- Tk800.023/hlist_bg	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/hlist_bg	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  require Tk::HList;
  
---- Tk800.022/iconwin.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/iconwin	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/hlist_demo Tk800.023.new/hlist_demo
+--- Tk800.023/hlist_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/hlist_demo	Sat Sep  1 07:16:26 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/nperl -w
++#!/usr/bin/perl -w
+ 
+ use lib qw(blib .);
+ use Tk;
+diff -Nru Tk800.023/icon Tk800.023.new/icon
+--- Tk800.023/icon	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/icon	Sat Sep  1 07:16:13 2001
+@@ -1,4 +1,4 @@
+-#!/tools/local/perl -w
++#!/usr/bin/perl -w
+ use Tk;
+ my $mw = MainWindow->new;
+ my $image = $mw->Photo('-file' => Tk->findINC("icon.gif"));
+diff -Nru Tk800.023/iconimg Tk800.023.new/iconimg
+--- Tk800.023/iconimg	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/iconimg	Sat Sep  1 07:16:25 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/image_test.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/image_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/iconwin Tk800.023.new/iconwin
+--- Tk800.023/iconwin	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/iconwin	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/inline_bitmap.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/inline_bitmap	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/image_test Tk800.023.new/image_test
+--- Tk800.023/image_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/image_test	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Tk;
+ 
+diff -Nru Tk800.023/inline_bitmap Tk800.023.new/inline_bitmap
+--- Tk800.023/inline_bitmap	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/inline_bitmap	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;             
  
---- Tk800.022/keyWords.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/keyWords	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/keyWords Tk800.023.new/keyWords
+--- Tk800.023/keyWords	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/keyWords	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use File::Find;
  
---- Tk800.022/labelpack.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/labelpack	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/labelpack Tk800.023.new/labelpack
+--- Tk800.023/labelpack	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/labelpack	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  require Tk::LabEntry;
---- Tk800.022/lbformat_demo.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/lbformat_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/lbformat_demo Tk800.023.new/lbformat_demo
+--- Tk800.023/lbformat_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/lbformat_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  use Tk::Font;
---- Tk800.022/leak_test.wiget	Sun Dec 19 21:54:49 1999
-+++ Tk800.022/leak_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/leak_test Tk800.023.new/leak_test
+--- Tk800.023/leak_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/leak_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Devel::Leak;
---- Tk800.022/lentry.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/lentry	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/lentry Tk800.023.new/lentry
+--- Tk800.023/lentry	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/lentry	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/local_demo.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/local_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/linux-progbar-toy Tk800.023.new/linux-progbar-toy
+--- Tk800.023/linux-progbar-toy	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/linux-progbar-toy	Sat Sep  1 07:16:00 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use Tk;
+ use Tk::widgets qw(ProgressBar);
+ 
+diff -Nru Tk800.023/local_demo Tk800.023.new/local_demo
+--- Tk800.023/local_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/local_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk qw(MainLoop *widget);
  use Carp;
---- Tk800.022/ls_table.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/ls_table	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/ls_table Tk800.023.new/ls_table
+--- Tk800.023/ls_table	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ls_table	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Table;
---- Tk800.022/lsfonts.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/lsfonts	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/lsfonts Tk800.023.new/lsfonts
+--- Tk800.023/lsfonts	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/lsfonts	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Xlib;
---- Tk800.022/menubar.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/menubar	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/menubar Tk800.023.new/menubar
+--- Tk800.023/menubar	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/menubar	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/menubug.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/menubug	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/menubug Tk800.023.new/menubug
+--- Tk800.023/menubug	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/menubug	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  use strict;
  
---- Tk800.022/mitem_test.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/mitem_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/mitem_test Tk800.023.new/mitem_test
+--- Tk800.023/mitem_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/mitem_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
   
  require 5.003;
  use English;
---- Tk800.022/mkExt.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/mkExt	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/mkExt Tk800.023.new/mkExt
+--- Tk800.023/mkExt	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/mkExt	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  sub translate
  {
---- Tk800.022/mkdist.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/mkdist	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/mkdist Tk800.023.new/mkdist
+--- Tk800.023/mkdist	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/mkdist	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  
  use ExtUtils::Manifest "/mani/";
---- Tk800.022/motif_hack.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/motif_hack	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/motif_hack Tk800.023.new/motif_hack
+--- Tk800.023/motif_hack	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/motif_hack	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Data::Dumper;
  use strict;
  use Tk;
---- Tk800.022/nested_dialog.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/nested_dialog	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/nested_dialog Tk800.023.new/nested_dialog
+--- Tk800.023/nested_dialog	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/nested_dialog	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Dialog;
---- Tk800.022/oddmenu_demo.wiget	Tue Jul 27 20:20:24 1999
-+++ Tk800.022/oddmenu_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/oddmenu_demo Tk800.023.new/oddmenu_demo
+--- Tk800.023/oddmenu_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/oddmenu_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  
---- Tk800.022/pfm.wiget	Tue Jul 27 20:21:11 1999
-+++ Tk800.022/pfm	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/pTk/LangIO.h.PL Tk800.023.new/pTk/LangIO.h.PL
+--- Tk800.023/pTk/LangIO.h.PL	Sun Feb  4 20:16:51 2001
++++ Tk800.023.new/pTk/LangIO.h.PL	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use Config;
+ my @gard = qw(
+ STDIO_H
+diff -Nru Tk800.023/pTk/Tcl-pTk Tk800.023.new/pTk/Tcl-pTk
+--- Tk800.023/pTk/Tcl-pTk	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/Tcl-pTk	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use Carp;
+ 
+diff -Nru Tk800.023/pTk/chext Tk800.023.new/pTk/chext
+--- Tk800.023/pTk/chext	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/chext	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ open(NEED,"<need") || die;
+ while (<NEED>)
+diff -Nru Tk800.023/pTk/counts Tk800.023.new/pTk/counts
+--- Tk800.023/pTk/counts	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/counts	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ 
+ sub count
+ {
+diff -Nru Tk800.023/pTk/findX Tk800.023.new/pTk/findX
+--- Tk800.023/pTk/findX	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/findX	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ BEGIN { require Exporter };
+ 
+diff -Nru Tk800.023/pTk/findcore Tk800.023.new/pTk/findcore
+--- Tk800.023/pTk/findcore	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/findcore	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ BEGIN { require Exporter };
+ 
+diff -Nru Tk800.023/pTk/findstrings Tk800.023.new/pTk/findstrings
+--- Tk800.023/pTk/findstrings	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/findstrings	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ 
+ %table = ();
+diff -Nru Tk800.023/pTk/from Tk800.023.new/pTk/from
+--- Tk800.023/pTk/from	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/from	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ 
+ use File::Find;
+diff -Nru Tk800.023/pTk/genexc Tk800.023.new/pTk/genexc
+--- Tk800.023/pTk/genexc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/genexc	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ my %mTk;
+ my $dir;
+diff -Nru Tk800.023/pTk/mTk/tclmerge Tk800.023.new/pTk/mTk/tclmerge
+--- Tk800.023/pTk/mTk/tclmerge	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mTk/tclmerge	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ 
+diff -Nru Tk800.023/pTk/mTk/tixmerge Tk800.023.new/pTk/mTk/tixmerge
+--- Tk800.023/pTk/mTk/tixmerge	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mTk/tixmerge	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;
+ 
+diff -Nru Tk800.023/pTk/makeenglish Tk800.023.new/pTk/makeenglish
+--- Tk800.023/pTk/makeenglish	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/makeenglish	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ # BEGIN { push(@INC, qw(../../../lib ../../lib ../lib lib)) }
+ 
+ die "Must be executed from Tk/pTk distribution directory\n" unless -f "Lang.h";
+diff -Nru Tk800.023/pTk/mkVFunc Tk800.023.new/pTk/mkVFunc
+--- Tk800.023/pTk/mkVFunc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mkVFunc	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;               
+ 
+ my %Ignore;
+diff -Nru Tk800.023/pTk/mkXinfo Tk800.023.new/pTk/mkXinfo
+--- Tk800.023/pTk/mkXinfo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mkXinfo	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ $file = shift;
+ 
+diff -Nru Tk800.023/pTk/mkexc Tk800.023.new/pTk/mkexc
+--- Tk800.023/pTk/mkexc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mkexc	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ use vars qw(%ref %def);
+ require "process_object";
+diff -Nru Tk800.023/pTk/mkmethods Tk800.023.new/pTk/mkmethods
+--- Tk800.023/pTk/mkmethods	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/mkmethods	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ $dst = shift;
+ 
+diff -Nru Tk800.023/pTk/tdiff Tk800.023.new/pTk/tdiff
+--- Tk800.023/pTk/tdiff	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/tdiff	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ sub fail
+ {
+diff -Nru Tk800.023/pTk/why Tk800.023.new/pTk/why
+--- Tk800.023/pTk/why	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pTk/why	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ use strict;        
+ 
+diff -Nru Tk800.023/pfm Tk800.023.new/pfm
+--- Tk800.023/pfm	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pfm	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use POSIX qw(getcwd);
  
  use Tk;
---- Tk800.022/pictgrid.wiget	Tue Jul 27 20:21:11 1999
-+++ Tk800.022/pictgrid	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/pictgrid Tk800.023.new/pictgrid
+--- Tk800.023/pictgrid	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pictgrid	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  
---- Tk800.022/pipe_test.wiget	Tue Jul 27 20:21:11 1999
-+++ Tk800.022/pipe_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/pipe_test Tk800.023.new/pipe_test
+--- Tk800.023/pipe_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pipe_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  
  require Tk::IO;
---- Tk800.022/pixmap_test.wiget	Tue Jul 27 20:21:11 1999
-+++ Tk800.022/pixmap_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/pixels-points Tk800.023.new/pixels-points
+--- Tk800.023/pixels-points	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pixels-points	Sat Sep  1 07:16:24 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/new/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ use Tk;
+ use Tk::Xlib;
+diff -Nru Tk800.023/pixmap_test Tk800.023.new/pixmap_test
+--- Tk800.023/pixmap_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pixmap_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  require Tk::Pixmap;
---- Tk800.022/popup.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/popup	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/pod/extract/extpod Tk800.023.new/pod/extract/extpod
+--- Tk800.023/pod/extract/extpod	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pod/extract/extpod	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;            
+ use Getopt::Std;
+ use ExtUtils::Manifest "/mani/";
+diff -Nru Tk800.023/pod/recat Tk800.023.new/pod/recat
+--- Tk800.023/pod/recat	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pod/recat	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ my $sec;            
+ my %cat;       
+diff -Nru Tk800.023/pod/subs Tk800.023.new/pod/subs
+--- Tk800.023/pod/subs	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/pod/subs	Sat Sep  1 07:05:34 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use blib;
+ use Tk;                     
+ use strict;
+diff -Nru Tk800.023/point_test Tk800.023.new/point_test
+--- Tk800.023/point_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/point_test	Sat Sep  1 07:15:55 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ use Tk;
+ 
+diff -Nru Tk800.023/popup Tk800.023.new/popup
+--- Tk800.023/popup	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/popup	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  
  use Tk;
---- Tk800.022/popup_menu.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/popup_menu	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/popup_menu Tk800.023.new/popup_menu
+--- Tk800.023/popup_menu	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/popup_menu	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  
  use Tk;
---- Tk800.022/prop_demo.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/prop_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/prop_demo Tk800.023.new/prop_demo
+--- Tk800.023/prop_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/prop_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/ptked.wiget	Sat Apr 29 10:20:31 2000
-+++ Tk800.022/ptked	Wed Nov 15 17:15:07 2000
+diff -Nru Tk800.023/ptked Tk800.023.new/ptked
+--- Tk800.023/ptked	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ptked	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use IO;
  use Socket;
---- Tk800.022/ptknews.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/ptknews	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/ptknews Tk800.023.new/ptknews
+--- Tk800.023/ptknews	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ptknews	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use strict;
  use Tk;
---- Tk800.022/scale_test.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/scale_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/ptksh Tk800.023.new/ptksh
+--- Tk800.023/ptksh	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ptksh	Sat Sep  1 07:16:23 2001
+@@ -1,4 +1,4 @@
+-#!perl -w
++#!/usr/bin/perl -w
+ #
+ # PTKSH 2.0
+ #
+diff -Nru Tk800.023/rebuild Tk800.023.new/rebuild
+--- Tk800.023/rebuild	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/rebuild	Sat Sep  1 07:15:54 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/new/perl -w
++#!/usr/bin/perl -w
+ open(STDERR,">&STDOUT") || die "Cannot redirect STDERR";
+ $| = 1;
+ use Cwd;
+diff -Nru Tk800.023/scale_test Tk800.023.new/scale_test
+--- Tk800.023/scale_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/scale_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/scrolled_demo.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/scrolled_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/scrolled_demo Tk800.023.new/scrolled_demo
+--- Tk800.023/scrolled_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/scrolled_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use strict;
---- Tk800.022/sillymenu.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/sillymenu	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/sillymenu Tk800.023.new/sillymenu
+--- Tk800.023/sillymenu	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/sillymenu	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  
---- Tk800.022/sockets.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/sockets	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/sockets Tk800.023.new/sockets
+--- Tk800.023/sockets	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/sockets	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use IO::Socket;
  use Tk::IO;
---- Tk800.022/stripblib.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/stripblib	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/stripblib Tk800.023.new/stripblib
+--- Tk800.023/stripblib	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/stripblib	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use File::Find;
  find(\&strip,'blib/arch');
  
---- Tk800.022/style_test.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/style_test	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/style_test Tk800.023.new/style_test
+--- Tk800.023/style_test	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/style_test	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::HList;    
---- Tk800.022/submethods.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/submethods	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/submethods Tk800.023.new/submethods
+--- Tk800.023/submethods	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/submethods	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  $meth = "pTk/Methods.def";
  
  %sub = ();
---- Tk800.022/symbols.wiget	Tue Jul 27 20:21:21 1999
-+++ Tk800.022/symbols	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/symbols Tk800.023.new/symbols
+--- Tk800.023/symbols	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/symbols	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Config;
  
---- Tk800.022/table_demo.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/table_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/table_demo Tk800.023.new/table_demo
+--- Tk800.023/table_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/table_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Table;
---- Tk800.022/tainted.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/tainted	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tainted Tk800.023.new/tainted
+--- Tk800.023/tainted	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tainted	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -T
 +#!/usr/bin/perl -T
  
  use Tk;
  
---- Tk800.022/tcl2perl.wiget	Thu Feb 17 21:51:43 2000
-+++ Tk800.022/tcl2perl	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tcl2perl Tk800.023.new/tcl2perl
+--- Tk800.023/tcl2perl	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tcl2perl	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  # Highly experimental tcl -> perl converter, aimed at eventually
  # completeing Tix merge
---- Tk800.022/tcolour.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/tcolour	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tcolour Tk800.023.new/tcolour
+--- Tk800.023/tcolour	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tcolour	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/text_demo.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/text_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/text_demo Tk800.023.new/text_demo
+--- Tk800.023/text_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/text_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  require Tk::Text;
---- Tk800.022/tie_basic.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/tie_basic	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tie_basic Tk800.023.new/tie_basic
+--- Tk800.023/tie_basic	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tie_basic	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl 
 +#!/usr/bin/perl 
  
  # use Memory (2440);
  
---- Tk800.022/tiehandle.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/tiehandle	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tiehandle Tk800.023.new/tiehandle
+--- Tk800.023/tiehandle	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tiehandle	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  
---- Tk800.022/tietext.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/tietext	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tietext Tk800.023.new/tietext
+--- Tk800.023/tietext	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tietext	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk;
  
  {package Tk::Text::Contents;
---- Tk800.022/time.wiget	Tue Jul 27 20:21:22 1999
-+++ Tk800.022/time	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/time Tk800.023.new/time
+--- Tk800.023/time	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/time	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use Tk::Stats 'Start';
  use strict;
  use Tk;
---- Tk800.022/tiny.wiget	Sat Apr  1 10:34:00 2000
-+++ Tk800.022/tiny	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tiny Tk800.023.new/tiny
+--- Tk800.023/tiny	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tiny	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  use Tk::widgets qw(Button);  
---- Tk800.022/tixwm_demo.wiget	Tue Jul 27 20:21:23 1999
-+++ Tk800.022/tixwm_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tixwm_demo Tk800.023.new/tixwm_demo
+--- Tk800.023/tixwm_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tixwm_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Dialog;
---- Tk800.022/tkperldoc.wiget	Sun Dec 19 18:28:57 1999
-+++ Tk800.022/tkperldoc	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tkperldoc Tk800.023.new/tkperldoc
+--- Tk800.023/tkperldoc	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tkperldoc	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use strict;
  use Tk;
---- Tk800.022/tkpsh.wiget	Tue Jul 27 20:21:25 1999
-+++ Tk800.022/tkpsh	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tkpsh Tk800.023.new/tkpsh
+--- Tk800.023/tkpsh	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tkpsh	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  require 5.001;
  use IO::Handle;
---- Tk800.022/tktail.wiget	Tue Jul 27 20:21:25 1999
-+++ Tk800.022/tktail	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/tktail Tk800.023.new/tktail
+--- Tk800.023/tktail	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/tktail	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  use strict;
  use Tk;
  use IO::File;
---- Tk800.022/two_main.wiget	Sat Apr  1 09:33:59 2000
-+++ Tk800.022/two_main	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/two_main Tk800.023.new/two_main
+--- Tk800.023/two_main	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/two_main	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  
  use Tk;
  use Tk::Xrm;
---- Tk800.022/uninstall.wiget	Tue Jul 27 20:21:25 1999
-+++ Tk800.022/uninstall	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/uninstall Tk800.023.new/uninstall
+--- Tk800.023/uninstall	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/uninstall	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
  BEGIN {exec('perl5.002',$0,@ARGV)  unless ($] >= 5.002)} 
  use Config;
  use Getopt::Long;
---- Tk800.022/xlib_demo.wiget	Tue Jul 27 20:21:25 1999
-+++ Tk800.022/xlib_demo	Wed Nov 15 17:10:09 2000
+diff -Nru Tk800.023/ventry_demo Tk800.023.new/ventry_demo
+--- Tk800.023/ventry_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/ventry_demo	Sat Sep  1 07:16:22 2001
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ use Tk;
+ 
+diff -Nru Tk800.023/xlib_demo Tk800.023.new/xlib_demo
+--- Tk800.023/xlib_demo	Sat Dec 30 17:12:37 2000
++++ Tk800.023.new/xlib_demo	Sat Sep  1 07:05:34 2001
 @@ -1,4 +1,4 @@
 -#!/usr/local/bin/perl -w
 +#!/usr/bin/perl -w
