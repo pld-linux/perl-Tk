@@ -9,8 +9,8 @@
 			# require valid DISPLAY
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	Tk
+%define		pdir	Tk
+%define		pnam	Tk
 Summary:	Tk - a graphical user interface toolkit for Perl
 Summary(pl):	Tk - toolkit graficznego interfejsu u¿ytkownika dla Perla
 Name:		perl-Tk
