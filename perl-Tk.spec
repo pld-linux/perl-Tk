@@ -4,6 +4,10 @@
 # - better summaries / descriptions
 # - do something with the demos (AAArgh!)
 #
+# Conditional build:
+%bcond_wit	tests	# do not perform "make test"
+			# require valid DISPLAY
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tk
 %define	pnam	Tk
@@ -12,7 +16,8 @@ Summary(pl):	Tk - toolkit graficznego interfejsu u¿ytkownika dla Perla
 Name:		perl-Tk
 Version:	800.025
 Release:	2
-License:	GPL
+# same as perl (except pTk dir - BSD-like)
+License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}%{version}.tar.gz
 # Source0-md5:	9907e608addd2e3f004d45f13dfb181e
@@ -46,11 +51,11 @@ wykorzystaniem GUI Tk.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor \
 	X11LIB=/usr/X11R6/%{_lib}
-
 %{__perl} -pi -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
-
 %{__make} \
 	OPTIMIZE="%{rpmcflags}"
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -58,7 +63,6 @@ install -d $RPM_BUILD_ROOT%{perl_vendorlib}/Tk
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
 rm -f	$RPM_BUILD_ROOT%{perl_vendorarch}/{auto/Tk/.packlist,Tk/reindex.pl} \
 	$RPM_BUILD_ROOT%{_mandir}/man3/Tie::Watch.3pm \
 	$RPM_BUILD_ROOT%{perl_vendorarch}/Tk/*.pod
