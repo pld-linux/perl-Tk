@@ -34,6 +34,8 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 Provides:	perl(Tk::LabRadio)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_noautoreq	'perl(Plot)' 'perl(WidgetDemo)'
+
 %description
 This package gives you the ability to develop perl applications using
 the Tk GUI.
