@@ -1,0 +1,6 @@
+- translations, cleaning
+- changed internal man section to 3 (-man_section.patch)
+- new %doc
+- added %{perl_sitelib}/Tk
+- removed *.ix files
+- release 7
