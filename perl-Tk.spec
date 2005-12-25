@@ -41,12 +41,17 @@ wykorzystaniem GUI Tk.
 
 %package devel
 Summary:	Perl Tk - development files
+Summary(pl):	Perl Tk - pliki programistyczne
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 This package gives you the ability to develop Perl applications using
 the Tk GUI.
+
+%description devel -l pl
+Ten pakiet umo¿liwia tworzenie aplikacji perlowych przy u¿yciu
+graficznego interfejsu u¿ytkownika Tk.
 
 %prep
 %setup -q -n %{pnam}-%{version}
