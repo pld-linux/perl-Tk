@@ -1,8 +1,8 @@
-#
 # TODO:
 # - move *license* files to %%docdir
 # - better summaries / descriptions
 # - do something with the demos (AAArgh!)
+# - perl-devel-5.8.7-4 marks perl-Tk-800.025-3 (req perl(ExtUtils::MakeMaker))
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test"
