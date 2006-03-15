@@ -24,6 +24,7 @@ BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	sed >= 4.0
+BuildRequires:	xorg-lib-libXft-devel
 Obsoletes:	perl-Tk-JPEG
 Obsoletes:	perl-Tk-PNG
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
