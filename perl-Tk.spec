@@ -20,7 +20,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
 Patch1:		%{name}-misc.patch
 Patch2:		%{name}-man_section.patch
-BuildRequires:	XFree86-devel
+#BuildRequires:	XFree86-devel
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -63,7 +63,7 @@ graficznego interfejsu u¿ytkownika Tk.
 %{__perl} Makefile.PL \
 	XFT=1 \
 	INSTALLDIRS=vendor \
-	X11LIB=/usr/X11R6/%{_lib}
+	X11LIB=/usr/%{_lib}
 %{__sed} -i -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
 %{__make} \
 	OPTIMIZE="%{rpmcflags}"
