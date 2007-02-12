@@ -8,7 +8,7 @@
 %define		pdir	Tk
 %define		pnam	Tk
 Summary:	Tk - a graphical user interface toolkit for Perl
-Summary(pl):	Tk - toolkit graficznego interfejsu uøytkownika dla Perla
+Summary(pl.UTF-8):   Tk - toolkit graficznego interfejsu u≈ºytkownika dla Perla
 Name:		perl-Tk
 Version:	804.027
 Release:	3
@@ -35,13 +35,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package gives you the ability to run Perl applications using the
 Tk GUI.
 
-%description -l pl
-Ten pakiet daje Ci moøliwo∂Ê tworzenia aplikacji Perla z
+%description -l pl.UTF-8
+Ten pakiet daje Ci mo≈ºliwo≈õƒá tworzenia aplikacji Perla z
 wykorzystaniem GUI Tk.
 
 %package devel
 Summary:	Perl Tk - development files
-Summary(pl):	Perl Tk - pliki programistyczne
+Summary(pl.UTF-8):   Perl Tk - pliki programistyczne
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 
@@ -49,9 +49,9 @@ Requires:	%{name} = %{version}-%{release}
 This package gives you the ability to develop Perl applications for
 the Tk GUI.
 
-%description devel -l pl
-Ten pakiet umoøliwia tworzenie aplikacji perlowych przy uøyciu
-graficznego interfejsu uøytkownika Tk.
+%description devel -l pl.UTF-8
+Ten pakiet umo≈ºliwia tworzenie aplikacji perlowych przy u≈ºyciu
+graficznego interfejsu u≈ºytkownika Tk.
 
 %prep
 %setup -q -n %{pnam}-%{version}
