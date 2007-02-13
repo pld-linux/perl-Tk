@@ -8,7 +8,7 @@
 %define		pdir	Tk
 %define		pnam	Tk
 Summary:	Tk - a graphical user interface toolkit for Perl
-Summary(pl.UTF-8):   Tk - toolkit graficznego interfejsu użytkownika dla Perla
+Summary(pl.UTF-8):	Tk - toolkit graficznego interfejsu użytkownika dla Perla
 Name:		perl-Tk
 Version:	804.027
 Release:	3
@@ -41,7 +41,7 @@ wykorzystaniem GUI Tk.
 
 %package devel
 Summary:	Perl Tk - development files
-Summary(pl.UTF-8):   Perl Tk - pliki programistyczne
+Summary(pl.UTF-8):	Perl Tk - pliki programistyczne
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 
