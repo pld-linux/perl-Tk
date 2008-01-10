@@ -66,6 +66,7 @@ graficznego interfejsu użytkownika Tk.
 	X11LIB=/usr/%{_lib}
 %{__sed} -i -e 's/<default.h>/"default.h"/g' pTk/tixDef.h
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
