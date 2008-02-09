@@ -1,5 +1,3 @@
-# TODO:
-# - better summaries / descriptions
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires valid $DISPLAY)
@@ -15,10 +13,11 @@ Release:	1
 # same as perl (except pTk dir - BSD-like)
 License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Tk/%{pnam}-%{version}.tar.gz
 # Source0-md5:	7153c1c411b0dd005a0660179e5c5900
 Patch0:		%{name}-misc.patch
 Patch1:		%{name}-man_section.patch
+URL:		http://search.cpan.org/dist/Tk/
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -31,12 +30,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq  'perl(WidgetDemo)'
 
 %description
-This package gives you the ability to run Perl applications using the
-Tk GUI.
+Perl Tk extension aims to provide a complete interface to the latest
+production version of John Ousterhout's Tk GUI toolkit, while
+providing an Object Oriented interface to Perl code.
 
 %description -l pl.UTF-8
-Ten pakiet daje Ci możliwość tworzenia aplikacji Perla z
-wykorzystaniem GUI Tk.
+Rozszerzenie Perla Tk ma na celu udostępnienie pełnego interfejsu do
+najnowszej produkcyjnej wersji toolkitu graficznego Tk Johna
+Ousterhouta, jednocześnie zapewniając zorientowany obiektowo interfejs
+dla kodu w Perlu.
 
 %package devel
 Summary:	Perl Tk - development files
@@ -49,7 +51,7 @@ This package gives you the ability to develop Perl applications for
 the Tk GUI.
 
 %description devel -l pl.UTF-8
-Ten pakiet umożliwia tworzenie aplikacji perlowych przy użyciu
+Ten pakiet umożliwia tworzenie aplikacji Perlowych przy użyciu
 graficznego interfejsu użytkownika Tk.
 
 %prep
@@ -132,7 +134,7 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/auto/Tk/*/*.bs
 %{perl_vendorarch}/auto/Tk/*/*.ld
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/*/*.so
-%{_mandir}/man[13]/*
+%{_mandir}/man3/Tk*.3pm*
 
 %files devel
 %defattr(644,root,root,755)
@@ -151,4 +153,7 @@ rm -rf $RPM_BUILD_ROOT
 # most of the bitmaps are used by demos
 %{perl_vendorarch}/Tk/*.x[bp]m
 %{perl_vendorarch}/Tk/*.gif
-%{_examplesdir}/*
+%{_mandir}/man1/ptked.1p*
+%{_mandir}/man1/ptksh.1p*
+%{_mandir}/man1/widget.1p*
+%{_examplesdir}/%{name}-%{version}
