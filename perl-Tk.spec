@@ -112,7 +112,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Tk/[N-Z]*.pm
 %{perl_vendorarch}/Tk/M[a-z]*.pm
 %{perl_vendorarch}/Tk/widgets.pm
-
 %dir %{perl_vendorarch}/auto/Tk
 %{perl_vendorarch}/auto/Tk/Tk.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/Tk.so
@@ -134,6 +133,7 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/auto/Tk/*/*.bs
 %{perl_vendorarch}/auto/Tk/*/*.ld
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/*/*.so
+%{_mandir}/man1/tkjpeg.1p*
 %{_mandir}/man3/Tk*.3pm*
 
 %files devel
