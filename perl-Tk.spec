@@ -13,7 +13,7 @@ Release:	2
 # same as perl (except pTk dir - BSD-like)
 License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/S/SR/SREZIC/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/S/SR/SREZIC/%{pnam}-%{version}.tar.gz
 # Source0-md5:	f4aebe6fcdb309a8480514f2ccf8117c
 Patch0:		%{name}-misc.patch
 Patch1:		%{name}-man_section.patch
@@ -60,6 +60,9 @@ graficznego interfejsu użytkownika Tk.
 %patch1 -p1
 
 %build
+# sync with current Xlib
+ln -sf /usr/include/X11/Xlib.h pTk/Xlib.h
+
 %{__perl} Makefile.PL \
 	XFT=1 \
 	INSTALLDIRS=vendor \
@@ -82,15 +85,13 @@ install -d $RPM_BUILD_ROOT{%{perl_vendorlib}/Tk,%{_examplesdir}/%{name}-%{versio
 mv $RPM_BUILD_ROOT{%{perl_vendorarch}/Tk/demos,%{_examplesdir}/%{name}-%{version}}
 
 # perl-Tie-Watch packaged in system
-rm -f $RPM_BUILD_ROOT{%{_mandir}/man3/Tie::Watch.3pm,%{perl_vendorarch}/Tie/Watch.pm}
+%{__rm} $RPM_BUILD_ROOT{%{_mandir}/man3/Tie::Watch.3pm,%{perl_vendorarch}/Tie/Watch.pm}
 
-# other arch
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/fix_4_os2.pl
-
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/{{auto/Tk/.packlist,Tk/reindex.pl},Tk{,/*}.pod}
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorarch}/Tk{,/*}.pod
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorarch}/auto/Tk/.packlist
 
 # in %doc
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Tk/{Credits,README.*,license.terms}
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorarch}/Tk/{Credits,README.*,license.terms}
 
 find $RPM_BUILD_ROOT -type f | xargs sed -i -e "s|/usr/local/bin/perl|%{_bindir}/perl|g"
 
