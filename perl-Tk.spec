@@ -9,7 +9,7 @@ Summary:	Tk - a graphical user interface toolkit for Perl
 Summary(pl.UTF-8):	Tk - toolkit graficznego interfejsu użytkownika dla Perla
 Name:		perl-Tk
 Version:	804.030
-Release:	3
+Release:	4
 # same as perl (except pTk dir - BSD-like)
 License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
@@ -27,7 +27,7 @@ Obsoletes:	perl-Tk-JPEG
 Obsoletes:	perl-Tk-PNG
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq  'perl(WidgetDemo)'
+%define		_noautoreq_perl	WidgetDemo
 
 %description
 Perl Tk extension aims to provide a complete interface to the latest
