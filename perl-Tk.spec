@@ -9,7 +9,7 @@ Summary:	Tk - a graphical user interface toolkit for Perl
 Summary(pl.UTF-8):	Tk - toolkit graficznego interfejsu użytkownika dla Perla
 Name:		perl-Tk
 Version:	804.031
-Release:	3
+Release:	4
 # same as perl (except pTk dir - BSD-like)
 License:	GPL v1+ or Artistic, parts BSD-like
 Group:		Development/Languages/Perl
@@ -117,6 +117,8 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Tk/[N-Z]*.pm
 %{perl_vendorarch}/Tk/M[a-z]*.pm
 %{perl_vendorarch}/Tk/widgets.pm
+# most of the bitmaps are used by demos
+%{perl_vendorarch}/Tk/*.x[bp]m
 %dir %{perl_vendorarch}/auto/Tk
 %{perl_vendorarch}/auto/Tk/Tk.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/Tk.so
@@ -155,8 +157,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Tk/TkXSUB.def
 %{perl_vendorarch}/Tk/install.pm
 %{perl_vendorarch}/Tk/pTk
-# most of the bitmaps are used by demos
-%{perl_vendorarch}/Tk/*.x[bp]m
 %{perl_vendorarch}/Tk/*.gif
 %{_mandir}/man1/ptked.1p*
 %{_mandir}/man1/ptksh.1p*
