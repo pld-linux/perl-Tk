@@ -120,7 +120,6 @@ rm -rf $RPM_BUILD_ROOT
 # most of the bitmaps are used by demos
 %{perl_vendorarch}/Tk/*.x[bp]m
 %dir %{perl_vendorarch}/auto/Tk
-%{perl_vendorarch}/auto/Tk/Tk.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/Tk.so
 %{perl_vendorarch}/auto/Tk/autosplit.ix
 %{perl_vendorarch}/auto/Tk/*.al
@@ -137,7 +136,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Tk/JPEG
 %{perl_vendorarch}/auto/Tk/*/autosplit.ix
 %{perl_vendorarch}/auto/Tk/*/*.al
-%{perl_vendorarch}/auto/Tk/*/*.bs
 %{perl_vendorarch}/auto/Tk/*/*.ld
 %attr(755,root,root) %{perl_vendorarch}/auto/Tk/*/*.so
 %{_mandir}/man1/tkjpeg.1p*
