@@ -21,6 +21,10 @@ Patch2:		%{name}-link.patch
 URL:		http://search.cpan.org/dist/Tk/
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
+%if %{with tests}
+BuildRequires:	perl-Encode
+BuildRequires:	perl-Test-Simple
+%endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	sed >= 4.0
 BuildRequires:	xorg-lib-libXft-devel
@@ -84,7 +88,7 @@ install -d $RPM_BUILD_ROOT{%{perl_vendorlib}/Tk,%{_examplesdir}/%{name}-%{versio
 	DESTDIR=$RPM_BUILD_ROOT
 
 # put demos to examples dir. do they work? don't know. didn't test
-mv $RPM_BUILD_ROOT{%{perl_vendorarch}/Tk/demos,%{_examplesdir}/%{name}-%{version}}
+%{__mv} $RPM_BUILD_ROOT{%{perl_vendorarch}/Tk/demos,%{_examplesdir}/%{name}-%{version}}
 
 # perl-Tie-Watch packaged in system
 %{__rm} $RPM_BUILD_ROOT{%{_mandir}/man3/Tie::Watch.3pm,%{perl_vendorarch}/Tie/Watch.pm}
