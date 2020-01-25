@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires valid $DISPLAY)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	Tk
 Summary:	Tk - a graphical user interface toolkit for Perl
