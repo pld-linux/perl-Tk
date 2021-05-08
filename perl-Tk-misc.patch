@@ -1,7 +1,7 @@
-diff -Nru Tk-804.027.vanilla/Tk/Widget.pm Tk-804.027/Tk/Widget.pm
---- Tk-804.027.vanilla/Tk/Widget.pm	2004-03-17 17:00:32.000000000 +0100
-+++ Tk-804.027/Tk/Widget.pm	2005-03-11 20:41:39.241813232 +0100
-@@ -60,7 +60,7 @@
+diff -urNp -x '*.orig' Tk-804.034.org/Tk/Widget.pm Tk-804.034/Tk/Widget.pm
+--- Tk-804.034.org/Tk/Widget.pm	2015-05-22 08:50:55.000000000 +0200
++++ Tk-804.034/Tk/Widget.pm	2021-05-08 23:13:26.906043565 +0200
+@@ -60,7 +60,7 @@ sub import
  sub True  { 1 }
  sub False { 0 }
  
@@ -9,4 +9,4 @@ diff -Nru Tk-804.027.vanilla/Tk/Widget.pm Tk-804.027/Tk/Widget.pm
 +use Tk::Submethods ( 'grab' =>  [qw(current status release -global)],
                      'focus' => [qw(-force -lastfor)],
                      'pack'  => [qw(configure forget info propagate slaves)],
-                     'grid'  => [qw(bbox columnconfigure configure forget info location propagate rowconfigure size slaves)],
+                     'grid'  => [qw(bbox columnconfigure configure forget info location propagate remove rowconfigure size slaves)],
