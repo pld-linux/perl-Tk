@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-authors/id/S/SR/SREZIC/%{pnam}-%{version
 Patch0:		%{name}-misc.patch
 Patch1:		%{name}-man_section.patch
 Patch2:		%{name}-link.patch
-URL:		http://search.cpan.org/dist/Tk/
+URL:		https://metacpan.org/release/Tk
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
@@ -25,6 +25,7 @@ BuildRequires:	perl-Encode
 BuildRequires:	perl-Test-Simple
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	sed >= 4.0
 BuildRequires:	xorg-lib-libXft-devel
 Obsoletes:	perl-Tk-JPEG
@@ -151,13 +152,14 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/widget
 %{perl_vendorarch}/Tk/MMtry.pm
 %{perl_vendorarch}/Tk/MMutil.pm
+%{perl_vendorarch}/Tk/install.pm
+%{perl_vendorarch}/Tk/TkXSUB.def
+%{perl_vendorarch}/Tk/vtab.def
+%{perl_vendorarch}/Tk/ppport.h
 %{perl_vendorarch}/Tk/prolog.ps
 %{perl_vendorarch}/Tk/typemap
-%{perl_vendorarch}/Tk/tkGlue*
-%{perl_vendorarch}/Tk/vtab.def
-%{perl_vendorarch}/Tk/TkXSUB.def
-%{perl_vendorarch}/Tk/install.pm
 %{perl_vendorarch}/Tk/pTk
+%{perl_vendorarch}/Tk/tkGlue*
 %{perl_vendorarch}/Tk/*.gif
 %{_mandir}/man1/ptked.1p*
 %{_mandir}/man1/ptksh.1p*
