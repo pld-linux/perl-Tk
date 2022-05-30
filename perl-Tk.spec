@@ -28,8 +28,8 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	sed >= 4.0
 BuildRequires:	xorg-lib-libXft-devel
-Obsoletes:	perl-Tk-JPEG
-Obsoletes:	perl-Tk-PNG
+Obsoletes:	perl-Tk-JPEG < 2.015
+Obsoletes:	perl-Tk-PNG < 2.006
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_noautoreq_perl	WidgetDemo
