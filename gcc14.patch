@@ -1,0 +1,208 @@
+diff -up Tk-804.036/pTk/mTk/generic/tkCanvText.c.orig Tk-804.036/pTk/mTk/generic/tkCanvText.c
+--- Tk-804.036/pTk/mTk/generic/tkCanvText.c.orig	2024-02-16 13:50:00.966946199 +0100
++++ Tk-804.036/pTk/mTk/generic/tkCanvText.c	2024-02-16 13:50:26.060152547 +0100
+@@ -1234,7 +1234,7 @@ GetTextIndex(interp, canvas, itemPtr, ob
+ 				 * index. */
+ {
+     TextItem *textPtr = (TextItem *) itemPtr;
+-    size_t length;
++    int length;
+     int c;
+     TkCanvas *canvasPtr = (TkCanvas *) canvas;
+     Tk_CanvasTextInfo *textInfoPtr = textPtr->textInfoPtr;
+Avoid implicit ints and implicit function declarations.  These
+language features have been removed from C in 1999. Future compilers
+are likely to stop accepting these constructs by default.
+
+Submitted upstream: <https://github.com/eserte/perl-tk/pull/91>
+
+diff -ur Tk-804.036.orig/config/signedchar.c Tk-804.036/config/signedchar.c
+--- Tk-804.036.orig/config/signedchar.c	2023-02-24 10:48:08.060779006 +0100
++++ Tk-804.036/config/signedchar.c	2023-02-24 10:48:58.315268904 +0100
+@@ -1,4 +1,4 @@
+-main()
++int main(void)
+ {
+  signed char x = 'a';
+  return (x - 'a');
+diff -ur Tk-804.036.orig/config/unsigned.c Tk-804.036/config/unsigned.c
+--- Tk-804.036.orig/config/unsigned.c	2023-02-24 10:48:08.054779067 +0100
++++ Tk-804.036/config/unsigned.c	2023-02-24 10:49:27.580971854 +0100
+@@ -1,15 +1,16 @@
++#include <stdio.h>
+ int main()
+ {
+  char x[] = "\377";
+  if (x[0] > 0)
+   {
+    printf("char is unsigned type\n");
+-   exit(0);
++   return 0;
+   }
+  else
+   {
+    printf("char is signed type\n");
+-   exit(1);
++   return 1;
+   }
+ }
+ 
+diff -ur Tk-804.036.orig/pTk/config/Hstrdup.c Tk-804.036/pTk/config/Hstrdup.c
+--- Tk-804.036.orig/pTk/config/Hstrdup.c	2023-02-24 10:48:08.010779514 +0100
++++ Tk-804.036/pTk/config/Hstrdup.c	2023-02-24 10:53:04.326771841 +0100
+@@ -6,7 +6,7 @@
+ {char *e;
+  char *p = strdup(STRING);
+  if (!p || strcmp(p,STRING))
+-  exit(1);
++  return 1;
+  return 0;
+ }
+ 
+diff -ur Tk-804.036.orig/pTk/config/Hstrtoul.c Tk-804.036/pTk/config/Hstrtoul.c
+--- Tk-804.036.orig/pTk/config/Hstrtoul.c	2023-02-24 10:48:08.013779483 +0100
++++ Tk-804.036/pTk/config/Hstrtoul.c	2023-02-24 10:50:13.205508745 +0100
+@@ -1,4 +1,5 @@
+ #include <stdlib.h>
++#include <string.h>
+ 
+ int main()
+ {char *e;
+diff -ur Tk-804.036.orig/pTk/mTk/generic/tkEvent.c Tk-804.036/pTk/mTk/generic/tkEvent.c
+--- Tk-804.036.orig/pTk/mTk/generic/tkEvent.c	2023-02-24 10:48:07.324786476 +0100
++++ Tk-804.036/pTk/mTk/generic/tkEvent.c	2023-02-24 10:54:20.859995000 +0100
+@@ -1153,6 +1153,7 @@
+ Time
+ TkCurrentTime(dispPtr, fallbackCurrent)
+     TkDisplay *dispPtr;		/* Display for which the time is desired. */
++    int fallbackCurrent;
+ {
+     register XEvent *eventPtr;
+     ThreadSpecificData *tsdPtr = (ThreadSpecificData *)
+diff -ur Tk-804.036.orig/pTk/mTk/generic/tkImage.c Tk-804.036/pTk/mTk/generic/tkImage.c
+--- Tk-804.036.orig/pTk/mTk/generic/tkImage.c	2023-02-24 10:48:07.321786507 +0100
++++ Tk-804.036/pTk/mTk/generic/tkImage.c	2023-02-24 10:55:56.174027554 +0100
+@@ -1083,6 +1083,8 @@
+ int y;
+ int width;
+ int height;
++int imgWidth;
++int imgHeight;
+ {
+     Tk_Tile tile = (Tk_Tile) clientData;
+     Tk_TileChange *handler;
+From a26233c844c52f49ef9cca5f88dd9063aac60d0f Mon Sep 17 00:00:00 2001
+From: Niko Tyni <ntyni@debian.org>
+Date: Thu, 11 Jan 2024 18:28:58 +0000
+Subject: [PATCH] Fix STRLEN vs int pointer confusion in
+ Tcl_GetByteArrayFromObj()
+
+Perl 5.37.2, more precisely commit
+
+ https://github.com/Perl/perl5/commit/1ef9039bccbfe64f47f201b6cfb7d6d23e0b08a7
+
+changed the implementation of SvPV() et al., breaking t/balloon.t,
+t/canvas2.t and t/photo.t on big-endian 64-bit architectures such as
+ppc64 and s390x because StringMatchGIF() no longer recognized GIF files.
+
+This is because Tcl_GetByteArrayFromObj() was calling SvPV() with an int
+pointer instead of a correct STRLEN pointer, and the new implementation
+is more sensitive to this: it assigns the pointers as-is, resulting in
+the int pointer pointing at the wrong end of the 64-bit length.
+
+Other functions taking a length pointer, at least Tcl_GetStringFromObj()
+already seem to do things correctly, so presumably this is not a
+systematic issue.
+---
+ objGlue.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/objGlue.c b/objGlue.c
+index d4927ea..dbd6a50 100644
+--- a/objGlue.c
++++ b/objGlue.c
+@@ -627,7 +627,10 @@ Tcl_GetByteArrayFromObj(Tcl_Obj * objPtr, int * lengthPtr)
+  sv_utf8_downgrade(objPtr, 0);
+  if (lengthPtr)
+   {
+-   return (unsigned char *) SvPV(objPtr, *lengthPtr);
++   STRLEN len;
++   unsigned char *s = SvPV(objPtr, len);
++   *lengthPtr = len;
++   return s;
+   }
+  else
+   {
+-- 
+2.30.2
+
+From c4cd966ed0997e2acb1fdcaf112c55a78ed50847 Mon Sep 17 00:00:00 2001
+From: Christopher Chavez <chrischavez@gmx.us>
+Date: Mon, 19 Feb 2024 14:18:43 -0600
+Subject: [PATCH] Avoid using incompatible pointer type for `old_warn`
+
+See https://github.com/eserte/perl-tk/issues/98#issuecomment-1944054296
+---
+ Event/Event.xs | 2 +-
+ tkGlue.c       | 7 +------
+ 2 files changed, 2 insertions(+), 7 deletions(-)
+
+diff --git a/Event/Event.xs b/Event/Event.xs
+index 82bbb244..f2c95234 100644
+--- a/Event/Event.xs
++++ b/Event/Event.xs
+@@ -1532,7 +1532,7 @@ PROTOTYPES: DISABLE
+ BOOT:
+  {
+ #ifdef pWARN_NONE
+-  SV *old_warn = PL_curcop->cop_warnings;
++  void *old_warn = PL_curcop->cop_warnings;
+   PL_curcop->cop_warnings = pWARN_NONE;
+ #endif
+   newXS("Tk::Event::INIT", XS_Tk__Event_INIT, file);
+diff --git a/tkGlue.c b/tkGlue.c
+index 68a7e0fa..ca4a13aa 100644
+--- a/tkGlue.c
++++ b/tkGlue.c
+@@ -5543,13 +5543,8 @@ _((pTHX))
+  char *XEventMethods = "abcdfhkmopstvwxyABDEKNRSTWXY#";
+  char buf[128];
+  CV *cv;
+-#if PERL_REVISION > 5 || (PERL_REVISION == 5 && PERL_VERSION >= 9)
+-#define COP_WARNINGS_TYPE STRLEN*
+-#else
+-#define COP_WARNINGS_TYPE SV*
+-#endif
+ #ifdef pWARN_NONE
+- COP_WARNINGS_TYPE old_warn = PL_curcop->cop_warnings;
++ void *old_warn = PL_curcop->cop_warnings;
+  PL_curcop->cop_warnings = pWARN_NONE;
+ #endif
+ 
+-- 
+2.43.0
+
+From 5c646b1cc55e18648918f101961afd1589a58168 Mon Sep 17 00:00:00 2001
+From: Christopher Chavez <chrischavez@gmx.us>
+Date: Mon, 19 Feb 2024 13:50:44 -0600
+Subject: [PATCH] pregcomp2.c: Avoid using incompatible pointer type
+
+See https://github.com/eserte/perl-tk/issues/98#issuecomment-1948125587
+---
+ config/pregcomp2.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config/pregcomp2.c b/config/pregcomp2.c
+index 98506999..bb0b4539 100644
+--- a/config/pregcomp2.c
++++ b/config/pregcomp2.c
+@@ -4,5 +4,5 @@
+ 
+ int main() {
+     SV* sv = newSViv(0);
+-    regexp* rx = pregcomp(sv, 0);
++    void* rx = pregcomp(sv, 0);
+ }
+-- 
+2.43.0
+
