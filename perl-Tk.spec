@@ -18,6 +18,7 @@ Patch0:		%{name}-misc.patch
 Patch1:		%{name}-man_section.patch
 Patch2:		%{name}-link.patch
 Patch3:		gcc14.patch
+Patch4:		gcc15.patch
 URL:		https://metacpan.org/release/Tk
 BuildRequires:	perl-Tie-Watch
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -66,6 +67,7 @@ graficznego interfejsu użytkownika Tk.
 %patch -P1 -p1
 %patch -P2 -p1
 %patch -P3 -p1
+%patch -P4 -p1
 
 %build
 # sync with current Xlib
